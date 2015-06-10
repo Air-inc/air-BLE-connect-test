@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="co.geminifab.app.giftviewbletest.TempSettingActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체온 측정 주기 (분단위 설정 1~60)"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정상 온도 셋팅"
+        android:id="@+id/textView3"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정상체온 범위 셋팅"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정범위 최소값"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정 범위 최대값"
+        android:id="@+id/textView6"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPeriod"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNormal"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignEnd="@+id/editTextPeriod"
+        android:layout_toEndOf="@+id/textView2"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRange"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignEnd="@+id/editTextNormal"
+        android:layout_alignStart="@+id/editTextNormal"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMin"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignStart="@+id/editTextRange"
+        android:layout_alignEnd="@+id/editTextRange"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMax"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/editTextMin"
+        android:layout_alignEnd="@+id/editTextMin"
+        android:inputType="number"
+        android:text="" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/buttonSave"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/editTextMax" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancle"
+        android:id="@+id/buttonCancle"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/buttonSave" />
+
+</RelativeLayout>

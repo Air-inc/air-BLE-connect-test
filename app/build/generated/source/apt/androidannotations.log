@@ -1,0 +1,1 @@
+17:20:03.222 [Daemon worker Thread 42] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.2 with options {androidManifestFile=/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.package.name}
