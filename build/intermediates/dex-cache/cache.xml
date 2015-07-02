@@ -2,23 +2,44 @@
 <items version="2" >
 
     <item
+        jar="/Users/deneb/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-80e9aa341cd9c5cdb33b7bb2bbb79c3be55264e6.jar" />
+    </item>
+    <item
+        jar="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/classes-6a97c36027460ddacc0010912ca6eecef70bd1fe.jar" />
+    </item>
+    <item
         jar="/Users/deneb/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
         jumboMode="false"
-        revision="22.0.1"
+        revision="23.0.0 rc2"
         sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
         <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2-29312ffdea0635501354aea4bd5b10c42996d396.jar" />
     </item>
     <item
-        jar="/Users/deneb/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jar="/Users/deneb/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-80e9aa341cd9c5cdb33b7bb2bbb79c3be55264e6.jar" />
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-2acf3f495073b6a0458ff3c657b5ae145850b5af.jar" />
     </item>
     <item
         jar="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/classes-e3544d8098057ccbd310cb105234f62aa1251b72.jar" />
+    </item>
+    <item
+        jar="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
         <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/classes-e3544d8098057ccbd310cb105234f62aa1251b72.jar" />
     </item>
@@ -30,6 +51,13 @@
         <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-9ecf4dbf96f5ee55d2c9f3df22afcad0c2afa0c3.jar" />
     </item>
     <item
+        jar="/Users/deneb/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2-29312ffdea0635501354aea4bd5b10c42996d396.jar" />
+    </item>
+    <item
         jar="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -37,9 +65,23 @@
         <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/classes-6a97c36027460ddacc0010912ca6eecef70bd1fe.jar" />
     </item>
     <item
-        jar="/Users/deneb/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-9ecf4dbf96f5ee55d2c9f3df22afcad0c2afa0c3.jar" />
+    </item>
+    <item
+        jar="/Users/deneb/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-80e9aa341cd9c5cdb33b7bb2bbb79c3be55264e6.jar" />
+    </item>
+    <item
+        jar="/Users/deneb/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
         <dex dex="/Users/deneb/Documents/GiftviewBLETest/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-2acf3f495073b6a0458ff3c657b5ae145850b5af.jar" />
     </item>

@@ -20,7 +20,7 @@ apt {
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    buildToolsVersion '23.0.0 rc2'
 
     defaultConfig {
         applicationId "co.geminifab.app.giftviewbletest"
