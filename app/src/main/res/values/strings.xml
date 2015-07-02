@@ -51,4 +51,5 @@
     <string name="scan">Scan</string>
     <string name="cancel">Cancel</string>
     <string name="title_activity_temp_setting">TempSettingActivity</string>
+    <string name="title_activity_aqsetting">AQSettingActivity</string>
 </resources>

@@ -253,6 +253,7 @@
     <string name="scanning">Scanning for devices...</string>
     <string name="select_device">Select a device</string>
     <string name="status">Status</string>
+    <string name="title_activity_aqsetting">AQSettingActivity</string>
     <string name="title_activity_temp_setting">TempSettingActivity</string>
     <string name="unpair">unpair</string>
     <string name="writeTxnoti">TxNoti</string>

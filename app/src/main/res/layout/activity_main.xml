@@ -121,4 +121,12 @@
         android:layout_alignTop="@+id/buttonTHP"
         android:layout_toEndOf="@+id/buttonGetTempSetting" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Quality Setting"
+        android:id="@+id/buttonAQSetting"
+        android:layout_below="@+id/buttonTHP"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

@@ -36,6 +36,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="co.geminifab.app.giftviewbletest.MainActivity" />
         </activity>
+        <activity
+            android:name=".AQSettingActivity"
+            android:label="@string/title_activity_aqsetting"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="co.geminifab.app.giftviewbletest.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
